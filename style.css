@@ -136,6 +136,30 @@ a:hover {
     color: rgba(255, 255, 255, .6);
 }
 
+.slogan {
+    font-size: 22px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.citation {
+    font-size: 19px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.author {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.book {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: initial;
+}
+
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
@@ -516,13 +540,15 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
+    background: #4E73BF;
 }
 
 .scrollToTop span {
     margin-top: 6px;
+    color: white;
 }
 
 .showScrollTop {
@@ -677,7 +703,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 13px;
 }
 
 .tight-width-whitespace {
@@ -693,6 +719,7 @@ p {
 .cta-hero {
     margin-top: 22px;
     color: #FFFFFF!important;
+    background: #4E73BF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -700,8 +727,13 @@ p {
 }
 
 .social {
+    color: white!important;
     max-width: 400px;
     margin: auto auto auto auto;
+}
+
+.social span {
+    padding-right: 5px;
 }
 
 h2 {
@@ -737,6 +769,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    font-size: 15px;
 }
 
 .portfolio-thumb {
@@ -753,13 +786,23 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #7c8fb6;
     padding: 40px 40px 40px 40px;
 }
 
 .bold-link {
-    font-weight: 900;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 16px;
+    border-radius: 100px;
+    background: rgb(31, 30, 30) ;
     text-decoration: underline!important;
+}
+
+.bold-link:hover {
+    background-color: white !important;
+    color: black!important;
+    transition: 0.3s;
 }
 
 .bgc-white {
@@ -771,20 +814,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #4E73BF;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #4E73BF;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    transform: scale(1.2);
     color: #FFFFFF!important;
 }
 
@@ -792,16 +835,12 @@ h4 {
     color: #FFFFFF!important;
 }
 
-.ltc-white:hover {
-    color: #cccccc!important;
-}
-
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #4E73BF!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #4E73BF!important;
 }
 
 .icon-dark-slate-blue {
