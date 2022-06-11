@@ -544,7 +544,7 @@ button {
     opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
-    background: #4E73BF;
+    background: black;
 }
 
 .scrollToTop span {
@@ -720,7 +720,7 @@ p {
 .cta-hero {
     margin-top: 22px;
     color: #FFFFFF!important;
-    background: #4E73BF!important;
+    background: #ee804d!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -815,7 +815,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #4E73BF;
+    background-color: #ee804d;
 }
 
 .tc-white {
@@ -823,7 +823,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #4E73BF;
+    background: #ee804d;
     color: #FFFFFF!important;
 }
 
